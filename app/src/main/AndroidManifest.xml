@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.amlakdb_test">
+
+    <uses-permission android:name="android.permission.CAMERA"/>
+    <uses-feature android:name="android.hardware.camera"/>
+    <uses-feature android:name="android.hardware.camera.autofocus"/>
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="com.google.android.providers.gsf.permission.READ_GSERVICES"/>
+    <uses-permission android:name="android.permission.CALL_PHONE"/>
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE"/>
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".add.Add_Activity"></activity>
+        <activity android:name=".Edit.EditActivity"></activity>
+        <activity android:name=".fileShow.File_Show_Activity"></activity>
+        <activity android:name=".hint.AboutApp"></activity>
+        <activity android:name=".hint.MainHint"></activity>
+        <activity android:name=".time_date_picker.Time_Date_Activity"></activity>
+        <activity android:name=".login.Password"></activity>
+        <activity android:name=".search.Search_Activity"></activity>
+        <activity android:name=".search.List_Searched_Activity"></activity>
+        <activity android:name=".recycler.RecyclerViewActivity" />
+        <activity android:name=".AllActivity" ></activity>
+        <activity android:name=".splash.Splash_Activity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

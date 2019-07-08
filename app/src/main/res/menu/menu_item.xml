@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/delete_item_menu"
+        android:icon="@mipmap/bindelete"
+        android:title="@string/delet_itm_menu" />
+    <item
+        android:id="@+id/edit_itm_menu"
+        android:icon="@mipmap/takepic"
+        android:title="@string/edit_itm_menu" />
+    <item
+        android:id="@+id/share_itm_menu"
+        android:icon="@mipmap/share"
+        android:title="@string/send_itm_menu" />
+    <item
+        android:id="@+id/telegran_itm_menu"
+        android:icon="@mipmap/telegran"
+        android:title="ارسال تلگرام" />
+    <item
+        android:id="@+id/plane_itm_menu"
+        android:icon="@mipmap/plane"
+        android:title="ارسال همکار" />
+    <item
+        android:id="@+id/takepic_itm_menu"
+        android:icon="@mipmap/takepic"
+        android:title="@string/takepic_itm_menu" />
+</menu>
